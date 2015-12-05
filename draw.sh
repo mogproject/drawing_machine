@@ -21,6 +21,6 @@ function announce() {
 
 announce "${label}"'の当選者は'
 sleep 2
-announce $(get_drawn $num_candidates)'番です'
+announce ' '$(get_drawn $num_candidates)'番 です'
 echo
 
